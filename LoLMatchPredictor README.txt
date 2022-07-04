@@ -1,0 +1,7 @@
+This is a short write up for the League of Legends match result predictor. I created this as a final project for an undergraduate machine learning course. While the final project is not fully complete and working outside of Jupyter Notebook's ability to run individual cells, I believe this project demonstrates my knowledge on machine learning and it's common practices. 
+
+The tools used in this project was the python package BeautifulSoup in order to scrape the training and testing data from online websites. I used Keras machine learning library to build my models to predict the outcomes. 
+
+The basic rules of a game of League of Legends are as follows: 2 teams of 5 people fight against eachother to destroy the nexus and win the game, each player has the option of over 150 unique champions. Some of these champions are better when the game is shorter, some do better the longer the game goes. Additionally, some of these champions are more challenging to play than others, meaning that at a higher rank of play, they are likely to see a higher winrate. 
+
+The overall goal of the model would be to predict the correct winner when given the input nodes of the different types of data. I worked with 3 different models for the 3 different levels of play. The highest being diamond, then platinum, then silver (the lowest). 
